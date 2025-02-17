@@ -1,25 +1,26 @@
-# Install Python FastApi
+# FastApiSentimentAnalysisDemo
+
+
+## Install Python FastApi
 ```bash
 pip install fastapi uvicorn
 ```
 
-# Pretrain Model
-### Assuming you have a pretrained sentiment analysis model (e.g., using transformers library from Hugging Face):
-## Install the transformers library:
+## Pretrain Model
+Assuming you have a pretrained sentiment analysis model (e.g., using transformers library from Hugging Face):
+### Install the transformers library:
 ```bash
 pip install transformers
 ```
 
-## Run the FastAPI app using Uvicorn:
+### Run the FastAPI app using Uvicorn:
 ```bash
 uvicorn main:app --reload
 ```
 
-The API will be available at http://127.0.0.1:8000.
-
-Access API docs at http://127.0.0.1:8000/docs.
-
-## Use the /analyze-sentiment endpoint to test the API by providing a JSON payload like:
+- The API will be available at http://127.0.0.1:8000.
+- Access API docs at http://127.0.0.1:8000/docs.
+- Use the /analyze-sentiment endpoint to test the API by providing a JSON payload like:
 
 
 ```json
