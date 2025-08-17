@@ -16,3 +16,7 @@ app = FastAPI()
 async def analyze_sentiment(text_input: TextInput):
     result = sentiment_pipeline(text_input.text)
     return {"sentiment": result[0]['label'], "confidence": result[0]['score']}
+
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Sentiment Analysis API. Use the /analyze-sentiment endpoint to analyze text."}

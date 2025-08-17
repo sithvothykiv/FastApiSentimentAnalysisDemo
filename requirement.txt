@@ -1,3 +1,5 @@
-pip install torch==1.9.0
-pip install fastapi==0.68.0 uvicorn==0.15.0
-pip install transformers==4.9.2
+torch>=2.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+transformers>=4.30.0
+numpy>=1.21.0

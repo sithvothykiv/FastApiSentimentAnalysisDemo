@@ -11,6 +11,8 @@ Assuming you have a pretrained sentiment analysis model (e.g., using transformer
 ### Install the transformers library:
 ```bash
 pip install transformers
+pip install "numpy<2.0.0" --force-reinstall
+
 ```
 
 ### Run the FastAPI app using Uvicorn:
@@ -32,6 +34,8 @@ uvicorn main:app --reload
 ### Using curl:
 ```bash
 curl -X POST "http://127.0.0.1:8000/analyze-sentiment" -H "Content-Type: application/json" -d '{"text": "I love using FastAPI!"}'
+
+curl -X GET "http://127.0.0.1:8000" -H "Content-Type: application/json"
 ```
 
 ### Using Python requests:
