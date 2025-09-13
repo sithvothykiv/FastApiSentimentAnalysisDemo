@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/kivsithvothy/Downloads/FastApiSentimentAnalysisDemo/mlruns/0/b709d26c34e84587864dd03362a4dcf5/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b709d26c34e84587864dd03362a4dcf5
+run_name: smiling-croc-594
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757733779850
+status: 1
+tags: []
+user_id: kivsithvothy
